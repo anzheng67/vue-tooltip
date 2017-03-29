@@ -53,6 +53,7 @@ function createTooltip (el, value, modifiers) {
     position,
     content,
     classes,
+    openOn: 'click',
     tetherOptions: directive.options.tetherOptions,
   })
 }
